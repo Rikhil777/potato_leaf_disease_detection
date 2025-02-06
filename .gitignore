@@ -1,0 +1,34 @@
+# Ignore virtual environment
+env/
+venv/
+*.pyc
+*.pyo
+__pycache__/
+
+# Ignore dataset (if too large)
+dataset/
+*.zip
+
+# Ignore saved models
+models/
+*.h5
+*.keras
+
+# Ignore logs and cache
+logs/
+*.log
+*.csv
+
+# Ignore results (confusion matrix, etc.)
+results/
+*.png
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore Streamlit cache
+.streamlit/
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
