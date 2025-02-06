@@ -5,7 +5,7 @@ from utils import load_trained_model, predict_image
 
 
 st.set_page_config(
-    page_title="Potato Leaf Disease Analyzer", 
+    page_title="Potato Leaf Disease Detection", 
     page_icon="🥔", 
     layout="wide"
 )
